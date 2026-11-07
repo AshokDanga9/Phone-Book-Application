@@ -24,3 +24,6 @@ save_contact.o : save_contact.c
 
 syncfile.o : syncfile.c
 	cc -c syncfile.c
+
+clean:
+        rm *.o phonebook
